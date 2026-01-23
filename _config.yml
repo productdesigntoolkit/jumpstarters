@@ -1,0 +1,41 @@
+# Jekyll Configuration for Jumpstarters
+
+title: Jumpstarters – KI-Tools Schnelleinstieg
+description: Praxisorientierte Einführungen und Cheatsheets für KI-Assistenten
+author: Ralph Hutter / HWZ
+baseurl: "/jumpstarters"
+url: "https://productdesigntoolkit.github.io"
+
+# Theme
+theme: jekyll-theme-cayman
+# Alternativen: jekyll-theme-minimal, jekyll-theme-slate, jekyll-theme-architect
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+
+# Settings
+relative_links:
+  enabled: true
+  collections: false
+
+# Include/Exclude
+include:
+  - README.md
+  - ABOUT.md
+
+exclude:
+  - .DS_Store
+  - .git
+  - .gitignore
+  - .gitattributes
+
+# Show/hide elements
+show_downloads: false
