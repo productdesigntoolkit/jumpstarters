@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd Jekyll configuration for GitHub Pages\n\n- Add _config.yml with Cayman theme\n- Create index.md as homepage with all guides listed\n- Include github-jumpstarter.md guide\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(gh api:*)",
+      "Bash(for i in {1..30})",
+      "Bash(do:*)",
+      "Bash(echo:*)",
+      "Bash(if curl -s -o /dev/null -w \"%{http_code}\" \"https://productdesigntoolkit.github.io/jumpstarters/\")",
+      "Bash(then)",
+      "Bash(exit 0)",
+      "Bash(fi)",
+      "Bash(done)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}

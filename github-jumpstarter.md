@@ -44,10 +44,6 @@ Um GitHub zu nutzen, brauchst du einen Account unter github.com. Die Registrieru
 3. **Zwei-Faktor-Authentifizierung aktivieren**: Unter Settings → Password and authentication
 4. **Git lokal konfigurieren**: Dein Name und E-Mail für Commits setzen
 
-```bash
-git config --global user.name "Dein Name"
-git config --global user.email "deine@email.com"
-```
 
 ### 1.4 Die GitHub-Oberfläche verstehen
 
