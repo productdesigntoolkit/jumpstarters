@@ -13,7 +13,9 @@
       "Bash(exit 0)",
       "Bash(fi)",
       "Bash(done)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd OpenAI Codex/ChatGPT code generation jumpstarter guide\n\nComprehensive guide covering ChatGPT''s code generation capabilities,\nincluding setup, best practices, API usage, and integration workflows.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
     ]
   }
 }
