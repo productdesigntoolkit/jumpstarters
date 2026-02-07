@@ -15,7 +15,10 @@
       "Bash(done)",
       "WebFetch(domain:github.com)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd OpenAI Codex/ChatGPT code generation jumpstarter guide\n\nComprehensive guide covering ChatGPT''s code generation capabilities,\nincluding setup, best practices, API usage, and integration workflows.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd gitbooks directory with prompt engineering content\n\nContains structured markdown files for GitBook including\nintroduction, conversational AI, custom GPTs, and appendix sections.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git reset:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd gitbooks directory with prompt engineering content\n\nIncludes comprehensive GitBook content covering:\n- Introduction to prompt engineering and LLMs\n- Custom GPTs and agentic AI\n- OpenAI platform features \\(Canvas, Codex, Projects\\)\n- Text prompting techniques and frameworks\n- Exercises and practical examples\n- Assets and media files\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
